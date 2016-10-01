@@ -4,7 +4,7 @@ import re
 import sys
 import json
 
-JSON_FILE_REGEX = '.+\\.json'
+JSON_FILE_REGEX = '.+\\.json$'
 
 
 def _print(_output):
